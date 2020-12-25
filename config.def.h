@@ -12,11 +12,11 @@ static const char *symbol_1 = "<";
 static const char *symbol_2 = ">";
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
-	[SchemeSelHighlight] = { "#ffc978", "#005577" },
-	[SchemeNormHighlight] = { "#ffc978", "#222222" },
-	[SchemeOut] = { "#000000", "#00ffff" },
+	[SchemeNorm] = { "#ffffff", "#1a1a1a" },
+	[SchemeSel] = { "#ffffff", "#666666" },
+	[SchemeSelHighlight] = { "#10a204", "#666666" },
+	[SchemeNormHighlight] = { "#10a204", "#1a1a1a" },
+	[SchemeOut] = { "#000000", "#000000" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
