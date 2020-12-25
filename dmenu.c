@@ -581,6 +581,9 @@ insert:
 	case XK_Escape:
 		cleanup();
 		exit(1);
+	case XK_Caps_Lock:
+		cleanup();
+		exit(1);
 	case XK_Home:
 		if (sel == matches) {
 			cursor = 0;
