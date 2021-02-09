@@ -1,3 +1,3 @@
 #/bin/sh
-sudo make uninstall
-sudo make clean install
+doas make uninstall
+doas make clean install
