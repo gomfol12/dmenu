@@ -7,7 +7,8 @@ static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't us
 static const char *fonts[] = {
 	"Iosevka Medium Extended:pixelsize=12:antialias=true:autohint=true",
 	"Symbols Nerd Font:pixelsize=12",
-	"JoyPixels:pixelsize=12:antialias=true:autohint=true"
+	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
+    "Noto Emoji:pixelsize=12:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *symbol_1 = "<-";
