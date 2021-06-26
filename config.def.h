@@ -5,8 +5,8 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"Iosevka Medium Extended:pixelsize=12:antialias=true:autohint=true",
-	"Symbols Nerd Font:pixelsize=12",
+	"monospace:pixelsize=12",
+	"Symbols Nerd Font:pixelsize=12:antialias=true:autohint=true",
 	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
     "Noto Emoji:pixelsize=12:antialias=true:autohint=true"
 };
@@ -24,7 +24,7 @@ static const char *colors[SchemeLast][2] = {
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 /* -h option; minimum height of a menu line */
-static unsigned int lineheight = 22;
+static unsigned int lineheight = 24;
 static unsigned int min_lineheight = 8;
 
 /*
