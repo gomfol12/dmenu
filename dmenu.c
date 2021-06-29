@@ -581,7 +581,7 @@ insert:
 	case XK_Escape:
 		cleanup();
 		exit(1);
-	case XK_Caps_Lock:
+	case XK_Menu:
 		cleanup();
 		exit(1);
 	case XK_Home:
